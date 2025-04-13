@@ -63,5 +63,25 @@ SYREN’s AI risk management strategy aligns with various international cybersec
 - **Continuous Risk Monitoring**: AI systems continuously monitor assets for any signs of risk or abnormal behavior. These systems generate real-time risk assessments that are reported back to the SOC.
 - **Reporting Structure**: AI risk reports are generated on a weekly basis and are accessible to both the cybersecurity team and upper management. These reports provide a detailed analysis of identified risks, mitigation steps taken, and future actions needed.
   
-  Example of an AI Risk Report:
+- **Example of an AI Risk Report:**
+Risk Category: High Risk
+Affected Module: Continuous Auth AI
+Risk Score: 85%
+Risk Description: The AI model detected abnormal behavior patterns that might indicate unauthorized access attempts.
+Mitigation Steps: Temporary restrictions applied. SOC alerted for further investigation.
+Future Actions: Manual review and model update scheduled.
+
+### **8. AI Risk Review & Continuous Improvement**  
+To ensure ongoing effectiveness, SYREN’s AI Risk Management policy undergoes a quarterly review. This review includes:
+
+- **AI Model Audits**: A comprehensive audit of all active AI models to ensure their continued relevance and effectiveness.
+- **Risk Adjustment**: Adjustments to risk thresholds, mitigation strategies, and AI models based on emerging trends, feedback, and changes in the threat landscape.
+- **Ethical Reviews**: Regular reviews of AI decisions for ethical implications, ensuring compliance with regulatory and ethical standards.
+
+### **9. Conclusion**  
+SYREN's AI Risk Management Policy ensures that all AI-driven processes within the organization are continuously monitored, assessed, and updated to minimize risk and improve operational efficiency. Through automation, transparency, and proactive risk mitigation, SYREN ensures that AI is a trusted and secure tool for modern cybersecurity.
+
+---
+
+*This document will be updated as needed to reflect the evolving landscape of AI in cybersecurity and compliance requirements.*
 
