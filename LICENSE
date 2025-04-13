@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Sadham Hussain
+Copyright (c) 2025 Sadham Hussain Razzak
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,24 +21,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-
-### **2. Folders/Files to Create**  
-#### **Folder: `/whitepaper`**  
-- **File**: `SYREN_Whitepaper_v1.pdf`  
-  - Use the whitepaper you shared earlier (I can refine it further if needed).  
-  - Add your name, a title page with "Copyright © 2024 Sadham Hussain Razzak", and the UAE flag.  
-
-#### **Folder: `/demo`**  
-- **File**: `simulator.py` *(Paste this code)*  
-  ```python
-  # SYREN AI Threat Detection Simulator  
-  import random  
-
-  def simulate_threat():  
-      threats = ["Zero-day exploit", "Insider attack", "AI-powered phishing"]  
-      risk_score = random.randint(80, 100)  
-      print(f"⚠️  SYREN Alert: {random.choice(threats)} detected (Risk: {risk_score}%)")  
-      print("✅ Auto-mitigation: SYREN applied adaptive firewall rules.")  
-
-  if __name__ == "__main__":  
-      simulate_threat()  
