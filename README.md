@@ -29,7 +29,7 @@ SYREN auto-creates compliance policies for:
 1. **Read the [Whitepaper](whitepaper/SYREN_Whitepaper_v1.pdf)**  
 2. **Run the demo**:  
    ```bash
-   git clone https://github.com/[YOUR_USERNAME]/SYREN-Framework.git
+   git clone https://github.com/sadham001/SYREN-Framework.git
    cd SYREN-Framework/demo
    python3 simulator.py
 ## 🤝 Contributors  
