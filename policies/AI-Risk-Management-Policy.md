@@ -66,7 +66,7 @@ SYREN’s AI risk management strategy aligns with various international cybersec
   
 - **Example of an AI Risk Report:**
 
-| **Risk Category**   | High Risk                         |
+| **Risk Category**   |High Risk                         |
 |---------------------|-----------------------------------|
 | **Affected Module**  | Continuous Auth AI                |
 | **Risk Score**       | 85%                               |
