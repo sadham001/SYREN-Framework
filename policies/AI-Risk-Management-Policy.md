@@ -63,7 +63,7 @@ SYREN’s AI risk management strategy aligns with various international cybersec
 - **Continuous Risk Monitoring**: AI systems continuously monitor assets for any signs of risk or abnormal behavior. These systems generate real-time risk assessments that are reported back to the SOC.
 - **Reporting Structure**: AI risk reports are generated on a weekly basis and are accessible to both the cybersecurity team and upper management. These reports provide a detailed analysis of identified risks, mitigation steps taken, and future actions needed.
   
--**Example of an AI Risk Report:**
+- **Example of an AI Risk Report:**
 **Risk Category**: High Risk
 **Affected Module**: Continuous Auth AI
 **Risk Score**: 85%
