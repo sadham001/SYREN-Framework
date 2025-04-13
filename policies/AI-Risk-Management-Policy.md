@@ -59,17 +59,21 @@ SYREN’s AI risk management strategy aligns with various international cybersec
 | Data Integrity & Security          | A.8.2.2           | AC-2                | Art. 5          |  
 | AI Ethics & Transparency           | A.6.1.2           | PM-9                | Art. 22         |  
 
-### **7. Risk Monitoring & Reporting**  
+### **7. Risk Monitoring & Reporting**
+
 - **Continuous Risk Monitoring**: AI systems continuously monitor assets for any signs of risk or abnormal behavior. These systems generate real-time risk assessments that are reported back to the SOC.
 - **Reporting Structure**: AI risk reports are generated on a weekly basis and are accessible to both the cybersecurity team and upper management. These reports provide a detailed analysis of identified risks, mitigation steps taken, and future actions needed.
   
 - **Example of an AI Risk Report:**
-**Risk Category**: High Risk
-**Affected Module**: Continuous Auth AI
-**Risk Score**: 85%
-**Risk Description**: The AI model detected abnormal behavior patterns that might indicate unauthorized access attempts.
-**Mitigation Steps**: Temporary restrictions applied. SOC alerted for further investigation.
-**Future Actions**: Manual review and model update scheduled.
+
+| **Risk Category**   | High Risk                         |
+|---------------------|-----------------------------------|
+| **Affected Module**  | Continuous Auth AI                |
+| **Risk Score**       | 85%                               |
+| **Risk Description** | The AI model detected abnormal behavior patterns that might indicate unauthorized access attempts. |
+| **Mitigation Steps** | Temporary restrictions applied. SOC alerted for further investigation. |
+| **Future Actions**   | Manual review and model update scheduled. |
+
 
 ### **8. AI Risk Review & Continuous Improvement**  
 To ensure ongoing effectiveness, SYREN’s AI Risk Management policy undergoes a quarterly review. This review includes:
