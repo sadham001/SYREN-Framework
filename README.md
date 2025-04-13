@@ -25,7 +25,7 @@ SYREN auto-creates compliance policies for:
 - [Risk Management](policies/AI-Risk-Management-Policy.md)  
 
 ## 📥 Get Started  
-1. **Read the [Whitepaper](whitepaper/SYREN_Whitepaper_v1.pdf)**  
+1. **Read the [Whitepaper](whitepaper/SYREN_Whitepaper_v1.pdf)**
 2. **Run the demo**:  
    ```bash
    git clone https://github.com/sadham001/SYREN-Framework.git
