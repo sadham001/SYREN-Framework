@@ -18,7 +18,13 @@ Traditional standards (ISO 27001, NIST) are **static** and **human-dependent**. 
 | **Neuro-Audit**      | Automated compliance validation   |  
 | **Threat Oracle**    | Predicts zero-day attacks         |  
 | **PolicyGPT**        | Generates human-readable policies |  
-| **Cloud Shield**     | Secures AWS/Azure natively        |  
+| **Cloud Shield**     | Secures AWS/Azure natively        | 
+ 
+## 🧠 AI-Powered Policy Generation  
+SYREN auto-creates compliance policies for:  
+- [GDPR](policies/GDPR-AI-Compliance.md)  
+- [Zero-Trust](policies/Zero-Trust-AI-Adapter.yml)  
+- [Risk Management](policies/AI-Risk-Management-Policy.md)  
 
 ## 📥 Get Started  
 1. **Read the [Whitepaper](whitepaper/SYREN_Whitepaper_v1.pdf)**  
