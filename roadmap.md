@@ -10,5 +10,5 @@
 - [ ] MVP for threat prediction
 
 ### Phase 3 (2026)
-- [ ] UAE government pilot program
-- [ ] Honorary PhD submission
+- [ ] Volunteer organization collaboration program
+- [ ] Expand partnerships with cybersecurity professionals
