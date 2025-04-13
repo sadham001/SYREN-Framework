@@ -31,7 +31,11 @@ SYREN auto-creates compliance policies for:
    git clone https://github.com/sadham001/SYREN-Framework.git
    cd SYREN-Framework/demo
    python3 simulator.py
+## 🛠️ Roadmap
+
+For detailed development phases and future milestones, refer to the full [SYREN Development Roadmap](roadmap.md).
+   
 ## 🤝 Contributors  
 <a href="https://github.com/sadham001/SYREN-Framework/graphs/contributors">  
-  <img src="https://contrib.rocks/image?repo=sadham001/SYREN-Framework" />  
+  <img src="https://contrib.rocks/image?repo=sadham001/SYREN-Framework" />  Sadham Hussain Razzak
 </a>
