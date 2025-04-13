@@ -66,14 +66,13 @@ SYREN’s AI risk management strategy aligns with various international cybersec
   
 - **Example of an AI Risk Report:**
 
-| **Risk Category**   |High Risk                         |
-|---------------------|-----------------------------------|
-| **Affected Module**  | Continuous Auth AI                |
-| **Risk Score**       | 85%                               |
+| **Risk Category**   | **High Risk**                         |
+|---------------------|---------------------------------------|
+| **Affected Module**  | Continuous Auth AI                    |
+| **Risk Score**       | 85%                                   |
 | **Risk Description** | The AI model detected abnormal behavior patterns that might indicate unauthorized access attempts. |
 | **Mitigation Steps** | Temporary restrictions applied. SOC alerted for further investigation. |
 | **Future Actions**   | Manual review and model update scheduled. |
-
 
 ### **8. AI Risk Review & Continuous Improvement**  
 To ensure ongoing effectiveness, SYREN’s AI Risk Management policy undergoes a quarterly review. This review includes:
