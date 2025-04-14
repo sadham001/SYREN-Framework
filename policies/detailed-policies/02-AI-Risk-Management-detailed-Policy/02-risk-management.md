@@ -82,7 +82,8 @@ Risk Score = Likelihood × Impact
 - Status (Open, Mitigated, Closed)
 - Owner and Reviewer
 
-- **Update Triggers**:
+**Update Triggers**:
+  
 - Post deployment
 - Regulatory change
 - Discovery of a new vulnerability
