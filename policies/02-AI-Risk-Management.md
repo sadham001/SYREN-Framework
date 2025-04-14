@@ -39,6 +39,7 @@ SYREN classifies AI-related risks into:
 **Risk Description**: The AI model detected abnormal behavior patterns that might indicate unauthorized access attempts.  
 **Mitigation Steps**: Temporary restrictions applied. SOC alerted for further investigation.  
 **Future Actions**: Manual review and model update scheduled.
+```
 
 ## 7. Compliance Alignment
 
