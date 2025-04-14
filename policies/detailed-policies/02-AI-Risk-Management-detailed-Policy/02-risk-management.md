@@ -66,85 +66,104 @@ Risk Score = Likelihood × Impact
 
 
 ---
-
 ## 3.0 Risk Register
 
-- Maintained by the CAIRO
-- Fields:
-- Risk ID
+- **Maintained by**: Chief AI Risk Officer (CAIRO)
+- **Contents**:
+- Unique Risk ID
 - Description
 - Severity (Low, Medium, High, Critical)
-- Treatment Plan
-- Owner
+- Source of Risk
+- Likelihood Score
+- Impact Score
+- Treatment Strategy
 - Status (Open, Mitigated, Closed)
+- Owner and Reviewer
 
-- Updated:
-- After major deployments
-- Following internal audits
-- When regulatory alerts are issued
+- **Update Triggers**:
+- Post deployment
+- Regulatory change
+- Discovery of a new vulnerability
+- Internal audit or incident
 
 ---
 
 ## 4.0 Model-Level Risk Controls
 
-| Model Type       | Key Controls                              |
-|------------------|--------------------------------------------|
-| NLP              | Bias audits, adversarial text simulation   |
-| CV (Computer Vision) | Dataset diversity, output drift detection |
-| Predictive       | False positive thresholds, transparency logs |
+| AI Model Type      | Risk Controls Implemented                                                 |
+|--------------------|--------------------------------------------------------------------------|
+| NLP                | Bias auditing, adversarial input testing, prompt logging                 |
+| Computer Vision    | Dataset diversity enforcement, bounding box validation, output drift checks |
+| Predictive Models  | Accuracy thresholding, false positive/negative rate monitoring           |
+| Reinforcement Learning | Fail-safe logic for reward hacking prevention, policy clipping     |
 
-- **Versioning**: Every model iteration must be tagged and archived with a rollback strategy.
-- **Explainability**: Integration of interpretability tools is mandatory.
+- **Explainability Requirement**: Use of SHAP, LIME, or similar tools is mandatory for all high-impact AI decisions.
+- **Rollback Strategy**: Model versions must be version-controlled with rollback capability on failure detection.
 
 ---
 
-## 5.0 Third-Party Risk
+## 5.0 Third-Party AI Risk
 
-- All vendors and AI service providers must:
-- Share risk assessment documentation
-- Sign a Model Security Assurance Agreement
-- Undergo quarterly compliance reviews
+- **Onboarding Requirements**:
+- Security and privacy posture report
+- Documented risk assessments of models/tools
+- NDA and compliance alignment with SYREN policies
+
+- **Continuous Monitoring**:
+- Quarterly reviews
+- Re-validation after major vendor updates
+- AI-specific penetration testing where applicable
 
 ---
 
 ## 6.0 Incident Response Integration
 
-- AI incidents such as data leaks, hallucinations, or bias triggers must:
-- Be classified under the SYREN IR policy (Policy 06)
-- Initiate a root cause analysis (RCA)
-- Be reviewed by CAIRO and logged in the Risk Register
+- All AI incidents such as hallucination, bias trigger, or unauthorized model manipulation must:
+- Be logged in the SYREN Incident Register
+- Escalated to CAIRO for review within 24 hours
+- Follow a documented root cause analysis (RCA)
+- Initiate immediate model suspension if critical
+
+- **Cross-Policy Integration**:
+- Links to Policy 06: Incident Detection and Response
+- Referenced by: Policy 01, 07, and 09
 
 ---
 
 ## 7.0 Training & Awareness
 
-- Mandatory training for:
-- Risk identification techniques
-- Scenario-based simulation and tabletop exercises
-- Regulatory landscape updates (AI Act, GDPR, etc.)
+- **Who Must Be Trained**:
+- Developers, Data Scientists, Security Engineers, Policy Owners
+- **Training Modules**:
+- Risk awareness and simulation labs
+- Regulatory updates and compliance
+- Threat modeling for AI/ML systems
 
-- Frequency:
-- Bi-annually or after major policy changes
+- **Schedule**: Every 6 months or after any significant risk event.
 
 ---
 
-## 8.0 Compliance Mapping
+## 8.0 Compliance Alignment
 
-| Risk Area         | ISO 27001 | NIST 800-53 | GDPR     |
-|-------------------|-----------|-------------|----------|
-| Risk Assessment   | A.8.2     | RA-3        | Art. 35  |
-| Controls & Actions| A.12.6    | SI-2        | Art. 32  |
-| Third-Party Risk  | A.15.1    | SA-9        | Art. 28  |
+| Compliance Framework | Relevant Section(s)                       |
+|----------------------|-------------------------------------------|
+| ISO/IEC 27001        | A.6.1.2 (Risk Assessment), A.12.6 (Vulnerability) |
+| NIST SP 800-53       | RA-3, SI-4, CA-7                          |
+| EU GDPR              | Article 35 (DPIA), Article 25 (Data Protection by Design) |
+| AI Act (EU)          | Title III, Chapter 2 (Risk Management in High-Risk AI) |
 
 ---
 
 ## 9.0 Review Cycle
 
-- **Policy Owner:** CAIRO
-- **Initial Author:** Security Governance Lead
-- **Review Frequency:** Annual or post major deployment
-- **Next Scheduled Review:** January 2026
+- **Policy Owner**: Chief AI Risk Officer
+- **Last Reviewed**: April 2025
+- **Next Scheduled Review**: April 2026
+- **Review Frequency**: Annual or when triggered by:
+- A major AI deployment
+- Regulatory updates
+- Post-incident response
 
 ---
 
-*This document is an in-depth companion to the summary policy outlined in 02-AI-Risk-Management.md.*
+*This detailed AI Risk Management Policy ensures the secure, ethical, and compliant use of AI in SYREN’s cybersecurity ecosystem.*
