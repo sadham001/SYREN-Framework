@@ -36,7 +36,7 @@ Risk Score = Likelihood × Impact
 - Ethical/Bias Risk
 - Regulatory Non-Compliance
 - Security Exposure (e.g., model inversion)
-- **Risk Levels**
+ **Risk Levels**
 
 | Score Range | Risk Level   |
 |-------------|--------------|
