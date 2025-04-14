@@ -72,22 +72,22 @@ Risk Score = Likelihood × Impact
 
 **Contents**:
 
-- Unique Risk ID
-- Description
-- Severity (Low, Medium, High, Critical)
-- Source of Risk
-- Likelihood Score
-- Impact Score
-- Treatment Strategy
-- Status (Open, Mitigated, Closed)
-- Owner and Reviewer
+  - Unique Risk ID
+  - Description
+  - Severity (Low, Medium, High, Critical)
+  - Source of Risk
+  - Likelihood Score
+  - Impact Score
+  - Treatment Strategy
+  - Status (Open, Mitigated, Closed)
+  - Owner and Reviewer
 
 **Update Triggers**:
   
-- Post deployment
-- Regulatory change
-- Discovery of a new vulnerability
-- Internal audit or incident
+  - Post deployment
+  - Regulatory change
+  - Discovery of a new vulnerability
+  - Internal audit or incident
 
 ---
 
@@ -108,14 +108,14 @@ Risk Score = Likelihood × Impact
 ## 5.0 Third-Party AI Risk
 
 - **Onboarding Requirements**:
-- Security and privacy posture report
-- Documented risk assessments of models/tools
-- NDA and compliance alignment with SYREN policies
+  - Security and privacy posture report
+  - Documented risk assessments of models/tools
+  - NDA and compliance alignment with SYREN policies
 
 - **Continuous Monitoring**:
-- Quarterly reviews
-- Re-validation after major vendor updates
-- AI-specific penetration testing where applicable
+  - Quarterly reviews
+  - Re-validation after major vendor updates
+  - AI-specific penetration testing where applicable
 
 ---
 
@@ -128,19 +128,19 @@ Risk Score = Likelihood × Impact
 - Initiate immediate model suspension if critical
 
 - **Cross-Policy Integration**:
-- Links to Policy 06: Incident Detection and Response
-- Referenced by: Policy 01, 07, and 09
+  - Links to Policy 06: Incident Detection and Response
+  - Referenced by: Policy 01, 07, and 09
 
 ---
 
 ## 7.0 Training & Awareness
 
 - **Who Must Be Trained**:
-- Developers, Data Scientists, Security Engineers, Policy Owners
+  - Developers, Data Scientists, Security Engineers, Policy Owners
 - **Training Modules**:
-- Risk awareness and simulation labs
-- Regulatory updates and compliance
-- Threat modeling for AI/ML systems
+  - Risk awareness and simulation labs
+  - Regulatory updates and compliance
+  - Threat modeling for AI/ML systems
 
 - **Schedule**: Every 6 months or after any significant risk event.
 
@@ -163,9 +163,9 @@ Risk Score = Likelihood × Impact
 - **Last Reviewed**: April 2025
 - **Next Scheduled Review**: April 2026
 - **Review Frequency**: Annual or when triggered by:
-- A major AI deployment
-- Regulatory updates
-- Post-incident response
+  - A major AI deployment
+  - Regulatory updates
+  - Post-incident response
 
 ---
 
