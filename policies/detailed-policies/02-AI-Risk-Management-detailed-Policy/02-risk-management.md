@@ -46,7 +46,7 @@ Risk Score = Likelihood × Impact
 | 10 - 15     | High         |
 | 16 - 25     | Critical     |
 
-- **Assessment Categories**:
+**Assessment Categories**:
 - **Operational Risk**: Errors due to automation, incorrect outputs, system downtime.
 - **Privacy & Data Risk**: Data leakage, re-identification, or unintended exposure.
 - **Ethical & Bias Risk**: Algorithmic bias, exclusion, or discrimination in decisions.
