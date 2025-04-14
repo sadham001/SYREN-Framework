@@ -27,7 +27,7 @@ Effective AI risk management ensures the identification, evaluation, mitigation,
 
 ### 2.2 Risk Assessment
 
-- Risk Scoring Formula:
+ **Risk Scoring Formula**:
 Risk Score = Likelihood × Impact
 
 - Categories:
