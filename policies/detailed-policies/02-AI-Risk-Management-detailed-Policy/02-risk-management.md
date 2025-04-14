@@ -70,7 +70,7 @@ Risk Score = Likelihood × Impact
 
 **Maintained by**: Chief AI Risk Officer (CAIRO)
 - **Contents**:
-- Unique Risk ID
+-- Unique Risk ID
 - Description
 - Severity (Low, Medium, High, Critical)
 - Source of Risk
