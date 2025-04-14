@@ -36,6 +36,22 @@ Risk Score = Likelihood × Impact
 - Ethical/Bias Risk
 - Regulatory Non-Compliance
 - Security Exposure (e.g., model inversion)
+- **Risk Levels**:
+| Score Range | Risk Level   |
+|-------------|--------------|
+| 1 - 4       | Low          |
+| 5 - 9       | Medium       |
+| 10 - 15     | High         |
+| 16 - 25     | Critical     |
+
+- **Assessment Categories**:
+- **Operational Risk**: Errors due to automation, incorrect outputs, system downtime.
+- **Privacy & Data Risk**: Data leakage, re-identification, or unintended exposure.
+- **Ethical & Bias Risk**: Algorithmic bias, exclusion, or discrimination in decisions.
+- **Regulatory Non-Compliance**: Violation of GDPR, ISO, or other frameworks.
+- **Security Exposure**: Model inversion, prompt injection, adversarial attacks.
+
+---
 
 ### 2.3 Risk Treatment
 
@@ -45,6 +61,7 @@ Risk Score = Likelihood × Impact
 | Reduce           | Implement mitigation controls              |
 | Transfer         | Outsource or insure                        |
 | Accept           | Document and monitor residual risk         |
+
 
 ---
 
